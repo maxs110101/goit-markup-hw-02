@@ -1,0 +1,24 @@
+:root {
+  /* colors сustom properties*/
+  --main-headers-color: #212121;
+  --nav-text-color: #212121;
+  --main-text-color: #757575;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --web-logo-color: #2196f3;
+  --hover-focus-color: #2196f3;
+  --button-color: #2196f3;
+  --first-background-color: #2f303a;
+  --second-background-color: #f5f4fa;
+  /* text custom properties*/
+  --webstudio-logo-font-family: Raleway;
+  --webstudio-logo-font-style: normal;
+  --webstudio-logo-font-weight: bold;
+  --webstudio-logo-font-size: 26px;
+  --webstudio-logo-line-height: 1.19;
+  --webstudio-logo: var(--webstudio-logo-font-family) var(--webstudio-logo-font-style)
+    var(--webstudio-logo-font-weight) / var(--webstudio-logo-font-size)
+    var(--webstudio-logo-line-height);
+}
+.webstudio-logo {
+  font: var(--webstudio-logo);
+}
